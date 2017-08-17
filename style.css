@@ -1,0 +1,21 @@
+body{
+background-color:darkblue;
+color:white;
+text-align:left;
+
+}
+table{margin:0 auto;} 
+h1{packet-shadow:2px 2px azure;
+
+}
+img{
+border:2px ridge blue;
+border-radius:10%;
+}
+.packet{margin-top:5%;}
+caption{font-weight:bold;color:greenyellow;text-align:center;}
+h1{text-align:center;}
+
+
+
+body{margin-top:-1%;}
