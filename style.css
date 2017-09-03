@@ -1,6 +1,7 @@
 body{
-background-color:darkblue;
-color:white;
+    font-weight: bold;
+background: url(LD.jpg);
+color:#0169ee;
 text-align:left;
 
 }
@@ -13,9 +14,10 @@ border:2px ridge blue;
 border-radius:10%;
 }
 .packet{margin-top:5%;}
-caption{font-weight:bold;color:greenyellow;text-align:center;}
+caption{font-weight:bold;color:black;text-align:center;}
 h1{text-align:center;}
 
-
-
+#ld {
+color: black
+};
 body{margin-top:-1%;}
