@@ -1,0 +1,161 @@
+body{
+  margin:0;
++
+
+}
+main{
+  font-family:sans-serif;
+}
+
+.main-container{
+  display:grid;
+  width:100%;
+  grid-template-columns:1fr 5fr 2fr 1fr;
+  grid-template-rows:50px 550px auto ;
+  background:url("https://thehobbygroup.co.za/wp-content/uploads/2016/03/Img1.jpg");
+height:1250px;
+}
+.header-content{
+  width:100%;
+  text-align:center;
+  font-size:2em;
+  color:#336B87;
+  background-color:#68829E;
+  position:fixed;
+  top:0;
+}
+.main-content{
+  display:grid;
+  grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start:2;
+  grid-row-end:3;
+}
+.aside-content{
+  grid-column-start:3;
+  grid-column-end:4;
+  grid-row-start:2;
+  grid-row-end:4;
+  background-color:#336B87;
+  margin-left:10px;
+
+}
+.inner-section{
+  display:grid;
+  width:100%;
+  grid-template-columns:1fr 1fr 1fr;
+  /* background-color:#336B87; */
+  margin-bottom:10px;
+}
+.card1{
+  grid-column-start:1;
+  grid-column-end:2;
+}
+.card2{
+  grid-column-start:2;
+  grid-column-end:3;
+}
+.card3{
+  grid-column-start:3;
+  grid-column-end:4;
+}
+#one{
+  background-size: cover;
+}
+#two{
+  background-size: cover;
+}
+#three{
+  background-size: cover;
+}
+#one:hover, #two:hover, #three:hover{
+  background-image: none;
+}
+*{
+  transition: all 1s linear;
+}
+a{
+  text-decoration: none;
+  color:#fff;
+}
+.card{
+  width: 100%;
+  height:120px;
+  margin:5px;
+  background-color:#336B87;
+  border-radius:6px;
+  display:table;
+  width: 95%;
+}
+.card-header{
+  display: table-cell;
+  text-align:center;
+  vertical-align: middle;
+  width: 100%;
+  padding: 5px;
+  font-style:normal;
+  color:#f0f0f0;
+}
+.card img{
+  width: 200%;
+}
+.aside-header{
+}
+.aside-text{
+  top:10px;
+  padding:5px;
+  color:#fff;
+  font-family:serif;
+}
+.item-header-ele{
+
+}
+.inner-header, .aside-header{
+  /*font-weight:bold;*/
+  padding-left:5px;
+  padding-top:5px;
+  color:#dedede;
+padding-bottom:25px;
+}
+hr{
+   border: 1px solid #336B87;
+}
+.aside-text img{
+  width: 100%;
+}
+.inner-header{
+  margin-top: 10px;
+  grid-column-start:1;
+  grid-column-end:4;
+  font-size:0.9em;
+  height:0;
+  margin-bottom:0;
+}
+@media(max-width:600px)
+{
+  main{
+    grid-template-rows:50px auto auto;
+  }
+  .header-content{
+    grid-row-start:1;
+    grid-row-end:5;
+  }
+  .main-content{
+    grid-column-start:1;
+    grid-column-end:5;
+    grid-row-start:2;
+    grid-row-end:3;
+  }
+  .aside-content{
+    grid-column-start:1;
+    grid-column-end:5;
+    grid-row-start:3;
+    grid-row-end:4;
+  }
+}
+#j007{
+	text-align: center;
+	padding: 10px;
+ font-family: 'Encode Sans', sans-serif;
+ font-size: 40px
+}
